@@ -1,0 +1,181 @@
+{
+    "context": "Context goes here, mainly for using generic vocab as prefix",
+    "transformations": [],
+    "models": [{
+        "id": "p1",
+        "inputs": [{
+                "id": "e1"
+            },
+            {
+                "id": "e2"
+            },
+            {
+                "id": "e3"
+            }
+        ],
+        "outputs": [{
+                "id": "e6"
+            },
+            {
+                "id": "e7"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://p1-endpoint-url.com"
+        }
+    },{
+        "id": "p2",
+        "inputs": [{
+                "id": "e1"
+            },
+            {
+                "id": "e6"
+            }
+        ],
+        "outputs": [{
+                "id": "e8"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://p2-endpoint-url.com"
+        }
+    },{
+        "id": "p3",
+        "inputs": [{
+                "id": "e4"
+            },
+            {
+                "id": "e6"
+            }
+        ],
+        "outputs": [{
+                "id": "e9"
+            },
+            {
+                "id": "e10"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://p3-endpoint-url.com"
+        }
+    },{
+        "id": "p4",
+        "inputs": [{
+                "id": "e5"
+            },
+            {
+                "id": "e6"
+            }
+        ],
+        "outputs": [{
+                "id": "e9"
+            },
+            {
+                "id": "e10"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://p4-endpoint-url.com"
+        }
+    },{
+        "id": "p5",
+        "inputs": [{
+                "id": "e6"
+            },{
+                "id": "e66"
+            }
+        ],
+        "outputs": [{
+                "id": "e11"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://p5-endpoint-url.com"
+        }
+    },{
+        "id": "p6",
+        "inputs": [{
+                "id": "e7"
+            },
+            {
+                "id": "e8"
+            },
+            {
+                "id": "e9"
+            },
+            {
+                "id": "e99"
+            }
+        ],
+        "outputs": [{
+                "id": "e12"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://p6-endpoint-url.com"
+        }
+    },{
+        "id": "p7",
+        "inputs": [{
+                "id": "e9"
+            },
+            {
+                "id": "e10"
+            }
+        ],
+        "outputs": [{
+                "id": "e12"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://p7-endpoint-url.com"
+        }
+    },{
+        "id": "p8",
+        "inputs": [{
+                "id": "e9"
+            },
+            {
+                "id": "e10"
+            }
+        ],
+        "outputs": [{
+                "id": "e13"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://p8-endpoint-url.com"
+        }
+    },{
+        "id": "p9",
+        "inputs": [{
+                "id": "e14"
+            }
+        ],
+        "outputs": [{
+                "id": "e15"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://p9-endpoint-url.com"
+        }
+    }]
+}

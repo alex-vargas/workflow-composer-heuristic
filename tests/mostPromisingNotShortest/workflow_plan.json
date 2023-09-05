@@ -1,0 +1,55 @@
+{
+  "2": [
+    {
+      "inputs": [
+        "f"
+      ],
+      "outputs": [
+        "a",
+        "c"
+      ],
+      "id": "p1",
+      "computationInfo": {
+        "method": "POST",
+        "contentType": "Content-Type: application/json",
+        "url": "http://p1-endpoint-url.com"
+      },
+      "prerequisites": []
+    },
+    {
+      "inputs": [
+        "f"
+      ],
+      "outputs": [
+        "e"
+      ],
+      "id": "p2",
+      "computationInfo": {
+        "method": "POST",
+        "contentType": "Content-Type: application/json",
+        "url": "http://p2-endpoint-url.com"
+      },
+      "prerequisites": []
+    }
+  ],
+  "4": [
+    {
+      "inputs": [
+        "e"
+      ],
+      "outputs": [
+        "a",
+        "b"
+      ],
+      "id": "p4",
+      "computationInfo": {
+        "method": "POST",
+        "contentType": "Content-Type: application/json",
+        "url": "http://p4-endpoint-url.com"
+      },
+      "prerequisites": [
+        "p2"
+      ]
+    }
+  ]
+}
